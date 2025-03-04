@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polygon Path Finder</title>
+</head>
+<body>
+    <div class="container">
+        <canvas id="polygonCanvas" width="750" height="750"></canvas>
+        <div class="controls">
+            <h3>Create Polygon</h3>
+            <button id="createPoints">Create Points</button>
+            <p id="pointsStatus" class="status">No points created</p>
+            <button id="drawPolygon" disabled>Draw Polygon</button>
+            <h3>Create Path</h3>
+            <button id="firstPoint" disabled>First Point</button>
+            <p id="firstPointLabel">None</p>
+            <button id="secondPoint" disabled>Second Point</button>
+            <p id="secondPointLabel">None</p>
+            <button id="toggleDirection" disabled>Clockwise</button>
+            <button id="clear" disabled>Clear</button>
+            <button id="clearStorage">Clear Storage</button>
+            <p id="pathOutput">Path: None</p>
+        </div>
+    </div>
+    <script src="bundle.js"></script>
+</body>
+</html>
